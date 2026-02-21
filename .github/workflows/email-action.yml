@@ -1,0 +1,11 @@
+name: Email Verification
+
+on:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f3003477@ds.study.iitm.ac.in
+        run: echo "Verification successful"
